@@ -1,0 +1,9 @@
+body {
+    background-image: url("../images/just-waves.png")
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 960px;
+}
