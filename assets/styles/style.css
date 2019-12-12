@@ -30,6 +30,11 @@ body {
         position:static;
         margin-bottom:0;
     }
+    .portpic {
+        max-width:210px;
+        max-height:210px;
+        margin:10px;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 641px){
