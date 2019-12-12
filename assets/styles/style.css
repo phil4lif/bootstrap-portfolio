@@ -13,27 +13,10 @@ body {
     font-size: 40px;
 }
 
-@media only screen and (max-width: 640px){
-    .container {
-        max-width:500px;
-        margin: auto;
-        margin-top: 150px;
-    }
-
+.portpic {
+    margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 640px){
-    .container {
-        max-width: 600px;
-        margin: auto;
-        margin-top: 150px;
-    }
-}
-
-@media only screen and (max-width: 980px) and (min-width: 769px){
-    .container {
-        max-width: 800px;
-        margin: auto;
-        margin-top: 150px;
-    }
+.card {
+    margin-top: 100px;
 }
