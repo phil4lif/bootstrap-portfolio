@@ -1,7 +1,9 @@
 body {
     background-image: url("../images/just-waves.png")
 }
-
+p {
+    text-indent: 40px;
+}
 .container {
     background-color: white;
     width: 100%;
@@ -37,14 +39,19 @@ body {
     }
     .profpic {
         max-width:300px;
-        align-content: center;
         margin-left: 100px;
+        margin-bottom: 20px;
     }
 }
 
 @media screen and (max-width: 768px) and (min-width: 641px){
     .container {
         max-width: 600px;
+    }
+    .profpic {
+        max-width:300px;
+        margin-left:150px;
+        margin-bottom:20px;
     }
 }
 
