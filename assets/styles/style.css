@@ -20,3 +20,26 @@ body {
 .card {
     margin-top: 100px;
 }
+
+@media screen and (max-width: 640px){
+    .container {
+        max-width: 500px;
+        margin-top: 50px;
+}
+    .navbar {
+        position:static;
+        margin-bottom:0;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px){
+    .container {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width:980px) and (min-width:769px){
+    .container {
+        max-width: 800px;
+    }
+}
